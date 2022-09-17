@@ -1,0 +1,132 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.App {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div--card {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.card {
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 7px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--heading {
+    margin-top: 0px;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.card--subheading {
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+span {
+    font-size: 6rem;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.card--sentence {
+    margin-bottom: 30px;
+    margin: 0px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card--author {
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    margin-top: 30px;
+    width: 20%;
+    padding: 15px 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1080px) {
+
+        .div--card {
+            width: 90%;
+        }
+        .card--heading {
+            font-size: 1.7rem;
+        }
+
+        .card--subheading {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            margin-top: 20px;
+            width: 90%;
+            padding: 20px;
+    
+        }
+
+        .card--sentence {
+            margin-bottom: 10px;
+            margin: 0px;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .card--author {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        span {
+            font-size: 4rem;
+            margin-right: auto;
+            margin-bottom: 0px;
+        }
+
+        button {
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+}
